@@ -1,0 +1,14 @@
+name: nombre_del_entorno
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - tensorflow
+      - keras
